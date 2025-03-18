@@ -1,9 +1,1 @@
-cd your-project  # 进入你的项目目录
-git init
 
-git remote add origin https://github.com/icevoid-gu/my-web-food-roll.git
-
-git add .               # 添加所有文件到暂存区
-git commit -m "首次提交"  # 提交到本地仓库
-git branch -M main      # 确保分支名为 main（GitHub 默认分支）
-git push -u origin main # 推送到 GitHub
